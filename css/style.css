@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f9f9f9;
+}
+
+.wrapper{
+    width: 1060px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+.header{padding-top: 50px;}
+
+.header-logo{margin-left: 45px;}
+
+.menu{
+    width: 965px;
+    height: 40px;
+    line-height: 40px;
+    background:  #545454;
+    margin: 36px 0 0 45px;
+}
+
+.menu-item{
+    font: 15px 'Open Sans', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 55px 0 25px;
+    display: inline-block;
+}
+
+.menu-item_active{
+    height: 30px;
+    font: 15px 'Open Sans', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    padding: 9px 21px 0 25px;
+    display: inline-block;
+    background: #464646;
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+    margin-right: 33px;
+}
+
+.container{width: 1060px;}
+
+/*SIDEBAR*/
+.sidebar{
+    width: 238px;
+    height: 237px;
+    background: #fff;
+    float: left;
+    border: 1px solid #c8c8c8;
+    margin: 40px 0 0 45px;
+}
+
+.sidebar-item{
+    font: 13px 'Open Sans', sans-serif;
+    color: #656363;
+    display: block;
+    text-decoration: none;
+    padding: 9px 0 12px 23px;
+    border-top: 1px solid #c8c8c8;
+}
+
+.sidebar-item:first-child{
+    border: none;
+}
+
+.sidebar-item_active{
+    background:  #f9f9f9;
+    font: 13px 'Open Sans', sans-serif;
+    color:  #656363;
+    display: block;
+    text-decoration: none;
+    padding: 9px 0 12px 37px;
+    border-top: 1px solid #c8c8c8;
+}
+
+/*CONTENT*/
+.content{
+    float: left;
+    margin-bottom: 40px;
+}
+
+.content-img{padding: 40px 0 0 50px;} 
+
+.content-txt{
+    font: 13px 'Open Sans', sans-serif;
+    color:  #2c2c2c;
+    line-height: 1.65;
+    padding: 31px 0 19px 75px;
+} 
+
+
+/*FOOTER*/
+.footer{
+    clear: both;
+    width: 965px;
+    height: 40px;
+    line-height: 40px;
+    background:  #e1e1e1;
+    margin-left: 45px;
+}
+
+.footer-item{
+    font: 13px 'Open Sans', sans-serif;
+    text-decoration: none;
+    color:  #2c2c2c;
+    padding: 0 65px 0 25px;
+}
+.footer-item_active{
+    font: 13px 'Open Sans', sans-serif;
+    color:  #2c2c2c;
+    padding: 0 65px 0 25px;
+}
+
+.footer-copyright{
+    font: 13px 'Open Sans', sans-serif;
+    color: #2c2c2c;
+    padding-left: 215px; 
+}
